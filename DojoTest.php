@@ -24,13 +24,13 @@ final class DojoTest extends TestCase {
     }
 
     /**
-     * @dataProvider getDecrement
+     * @dataProvider getDecrementOrIncrement
      */
-    public function testNegativeDecrement(int $number, $expectedResult): void {
+    public function testIncrementOrDecrement(int $number, $expectedResult): void {
         $this->assertEquals($expectedResult, incrementOrDecrement($number));
     }
 
-    public function getDecrement() : array
+    public function getDecrementOrIncrement() : array
     {
         return [
             [2, 3],

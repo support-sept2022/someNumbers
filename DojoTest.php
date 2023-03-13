@@ -9,7 +9,7 @@ final class DojoTest extends TestCase {
      * @dataProvider getNumbers
      */
     public function testGetNegativeOrPositive(int $number, int $expectedResult): void {
-        $this->assertEquals($expectedResult, getNegativeOrPositive($number));
+        $this->assertEquals($expectedResult, getNegative($number));
     }
 
     public function getNumbers() : array

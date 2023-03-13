@@ -2,9 +2,9 @@
 
 /* This function takes a positive or negative input number. and have to return its opposite:
 7 => -7;
--15 => 15;
+-15 => -15;
  */
-function getNegativeOrPositive(int $number): int
+function getNegative(int $number): int
 {
 
 }
